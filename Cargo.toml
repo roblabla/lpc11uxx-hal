@@ -16,3 +16,7 @@ edition = "2018"
 lpc11uxx = "0.3"
 cortex-m = "0.5"
 embedded-hal = "0.2"
+nb = "0.1.2"
+
+[patch.crates-io.lpc11uxx]
+git = "https://github.com/roblabla/lpc-pac"

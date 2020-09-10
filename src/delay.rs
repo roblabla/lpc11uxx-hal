@@ -2,7 +2,6 @@ use cortex_m::peripheral::syst::SystClkSource;
 use embedded_hal::blocking::delay::{DelayMs, DelayUs};
 use lpc11uxx::SYST;
 
-
 pub struct Delay {
     syst: SYST,
     clock_speed_mhz: u32,
